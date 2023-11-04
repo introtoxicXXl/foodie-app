@@ -1,0 +1,8 @@
+nav a.active{
+    color: #39DB4A;
+}
+
+nav a:hover{
+    color: #39DB4A;
+    transition: all 0.2s;
+}
