@@ -4,6 +4,7 @@ import oodi from '../../assets/oodi.svg';
 import { LuPhoneCall } from 'react-icons/lu';
 import { BiSearch } from 'react-icons/bi';
 import './Header.css';
+import Button from '../Button/Button';
 
 const Header = () => {
     return (
@@ -48,7 +49,7 @@ const Header = () => {
                         <span className="badge badge-sm indicator-item bg-[#39DB4A] text-white">8</span>
                     </div>
                     <Link to='/contact' className='lg:block md:block hidden'>
-                        <button className='flex items-center bg-[#39DB4A] hover:bg-[#39DB4A] btn md:btn-md btn-sm rounded-3xl text-white'><LuPhoneCall className=''></LuPhoneCall> Contact</button>
+                        <Button name='Contact' icon={<LuPhoneCall></LuPhoneCall>}></Button>
                     </Link>
                 </div>
             </div>

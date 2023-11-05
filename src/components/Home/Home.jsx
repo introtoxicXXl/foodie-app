@@ -1,12 +1,9 @@
-import { Outlet } from "react-router-dom";
-import Header from "../Header/Header";
-
+import Banner from "../Banner/Banner";
 
 const Home = () => {
     return (
-        <div className="container mx-auto">
-        <Header></Header>
-           <Outlet></Outlet>
+        <div className="">
+        <Banner></Banner>
         </div>
     );
 };
