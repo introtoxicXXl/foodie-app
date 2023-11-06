@@ -8,7 +8,7 @@ import Button from '../Button/Button';
 
 const Header = () => {
     return (
-        <nav className='mt-4"'>
+        <nav className='mt-4 sticky top-0 bg-white z-10'>
             <div className="navbar justify-between">
                 <div className=" justify-center lg:hidden">
                     <div className="dropdown">

@@ -1,0 +1,16 @@
+.card:hover h5,
+.card:hover p{
+    color: white !important;
+}
+.card {
+    position: relative;
+    background-color: #ffffff; /* Set the default background color */
+    transition: all 0.3s;
+  }
+
+.card:hover{
+    background-color: #39DB4A;
+    transform: translateY(-10px);
+}
+
+ 
