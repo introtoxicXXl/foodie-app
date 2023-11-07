@@ -1,0 +1,9 @@
+.dish:hover{
+    background-color: #39DB4A;
+    transition: all 0.3s;
+}
+
+.dish:hover div h5,
+.dish:hover div div p{
+    color: #fff;
+}
