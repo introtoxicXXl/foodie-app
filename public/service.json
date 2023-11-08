@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "img": "https://i.ibb.co/3dS2z3r/fi-rr-salad.png",
+        "title": "Catering",
+        "description": "Delight your guests with our flavors and  presentation"
+    },
+    {
+        "id": 2,
+        "img": "https://i.ibb.co/h1w0gCB/fi-rr-time-fast.png",
+        "title": "Fast delivery",
+        "description": "We deliver your order promptly to your door"
+    },
+    {
+        "id": 3,
+        "img": "https://i.ibb.co/6BKZZbp/fi-rr-shopping-cart-check.png",
+        "title": "Online Ordering",
+        "description": "Explore menu & order with ease using our Online Ordering "
+    },
+    {
+        "id": 4,
+        "img": "https://i.ibb.co/p00HByy/fi-rr-gift.png",
+        "title": "Gift Cards",
+        "description": "Give the gift of exceptional dining with Foodi Gift Cards"
+    }
+]
