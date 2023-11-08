@@ -22,8 +22,8 @@ const PopularDish = () => {
     return (
         <div className='my-10 w-10/12 mx-auto'>
             <div className='space-y-5 my-10'>
-                <p className='text-[#FF6868] text-lg uppercase tracking-widest'>Special Dishes</p>
-                <h1 className='text-6xl font-bold text-black'>Standout Dishes <br /> From Our Menu</h1>
+                <p className='text-[#FF6868] md:text-lg text-sm uppercase tracking-widest'>Special Dishes</p>
+                <h1 className='lg:text-6xl md:text-5xl text-3xl font-bold text-black'>Standout Dishes <br /> From <span className="text-[#39DB4A]">Our Menu</span></h1>
             </div>
             <Swiper
                 slidesPerView={4}
